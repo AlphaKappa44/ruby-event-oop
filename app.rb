@@ -7,6 +7,16 @@ Bundler.require
 require_relative 'lib/user'
 require_relative 'lib/event'
 
+Djaleskandro = User.new("Jajah@pinard.fr", "42")
+Felicite = User.new("felicite@birochere.fr","6")
 
+puts Djaleskandro.email
+puts Djaleskandro.age
+puts Felicite.email
+
+binding.pry # tests
+  puts "end of file"
+
+puts Felicite.age
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
