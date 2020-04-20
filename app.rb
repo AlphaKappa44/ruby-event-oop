@@ -13,10 +13,15 @@ Felicite = User.new("felicite@birochere.fr","6")
 puts Djaleskandro.email
 puts Djaleskandro.age
 puts Felicite.email
-
-binding.pry # tests
-  puts "end of file"
-
 puts Felicite.age
+
+Promenade = Event.new("2020-04-24 18:00:00", "30", "vélo", "féfé@labiro")
+puts Promenade.title
+puts "avec"
+puts Promenade.attendees
+
+# binding.pry # tests
+#   puts "end of file"
+
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
